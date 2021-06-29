@@ -1,14 +1,16 @@
-import React from 'react';
-import FoodBox from './FoodBox';
-import AddFood from './AddFood';
+import React, { Component } from 'react';
+import Foods from './components/Foods';
 import './App.css';
 
-function App() {
-  return (
-    <div>
-      <AddFood className="bordas"/>
-      <FoodBox />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="container mgt-medium">
+        <Foods />
+      </div>
+    );
+  }
 }
+
 export default App;
+
