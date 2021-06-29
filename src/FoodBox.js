@@ -13,7 +13,7 @@ class FoodBox extends React.Component {
               <article className="media d-flex">
                 <div className="media-left">
                   <figure className="image is-64x64">
-                    <img className="imgBox" style={{width: '120px', height: 'auto'}} src={foods.image} alt="foods"/>
+                    <img className="imgBox" style={{width: '64px', height: '64'}} src={foods.image} alt="foods"/>
                   </figure>
                 </div>
                 <div className="d-flex">
